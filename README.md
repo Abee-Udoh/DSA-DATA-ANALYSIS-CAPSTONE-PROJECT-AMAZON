@@ -12,8 +12,15 @@ This Data Analysis project focuses on analyzing Amazon product and customer revi
 ### Dataset Description 
 The dataset contains information scraped from Amazon product pages, including:
 - Products details: name, category, price, discount, and ratings.
-- Customer engagement: user reviews, titles, and content
+- Customer engagement: user reviews, titles, and content.
 - Each row represents a unique product, with aggregated reviewer data stored as Amazon Case Study.xlsx.
-- Total Records:1,465 rows
-- Total fields: 16 columns
+- Dataset Size: 1,465 Rows | 16 Columns
+
+### Tool Used: Microsoft Excel 
+- Key components of the analysis included:
+   - Pivot Tables to summarize and segment data efficiently.
+   - Calculated Columns to derive key performance indicators (e.g., Total potential revenue).
+   - Slicers and Filters for seamless interactivity and data exploration.
+   - Data Visualizations (charts, tables, Pie chart, etc) to highlight trends in product ratings, discount behavior, pricing strategies, and review volume.
+ 
 
