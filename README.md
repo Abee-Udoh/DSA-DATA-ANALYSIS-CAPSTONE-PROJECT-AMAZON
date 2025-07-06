@@ -5,9 +5,9 @@ I developed a dynamic Excel Dashboard analyzing 1,465 Amazon product reviews, un
 
 ### Project Overview
 This Data Analysis project focuses on analyzing Amazon product and customer review data to generate actionable insights for e-commerce sellers. The core objective of this project was to empower sellers with the knowledge and tools to:
- - Improve product quality based on real customer feedback
- - Refine marketing strategies using trends in reviews and ratings
- - Boost customer engagement and satisfaction through informed decisions
+ - Improve product quality based on real customer feedback.
+ - Refine marketing strategies using trends in reviews and ratings.
+ - Boost customer engagement and satisfaction through informed decisions.
 
 ### Dataset Description 
 The dataset contains information scraped from Amazon product pages, including:
@@ -21,11 +21,11 @@ The dataset contains information scraped from Amazon product pages, including:
 ### Process: Data Cleaning, Preparation and Visualizations
 - In the initial phase of the data cleaning and preparation, I performed the following actions:
   1. Apply the filter drop-down button to all header column. Go through each column to look for blanks and incorrect data. Replace the numeric blanks with 0.
-  2. Remove duplicates from Product _Id 
+  2. Remove duplicates from Product_Id. 
   3. Change the formatting of the columns where necessary i.e currency where necessary.
   4. Hide or delete unnecessary columns that you won't be needed to generate a result i.e img_link.
   5. For Category column, use delimiters in the Data tab to extract only the main category needed.
-  6. Consistent and clean data with respect to data type, data format and values used
+  6. Consistent and clean data with respect to data type, data format and values used.
   7. Create Pivot Tables to summarize and segment data efficiently.
   8. Calculated Columns to derive key performance indicators (e.g., Total potential revenue).
   9. Data Visualizations (Bar charts, tables, Pie chart, Scatter chart) to highlight trends in product ratings, discount behavior, pricing strategies, and review volume.
@@ -49,7 +49,7 @@ Using Pivot Tables, Slicers, and Calculated Columns in Excel, the following ques
 14. Identify the top 5 products in terms of rating and number of reviews combined.
 
 ### Data Analysis 
-Using Calculated columns, the following  line of codes were used during the analys
+Using Calculated columns, the following  line of codes were used during the analysis:
  1. Average discount percentage by product category = (Actual Price - Discounted Price) / Actual Price * 100
  2. Discount of 50% or more =IF(Discount % >= 50, "Yes", "No")
  3. Total potential revenue by category =Actual Price * Rating Count
@@ -64,7 +64,7 @@ Some key takeaways from the analysis:
 - Most products are priced between ₹200–₹500.
 
 ### Final Conclusion
- The Amazon Product Review Analysis in Excel uncovered key trends in product performance, pricing, and customer engagement. Insights such as the impact of discounts on ratings and concentration of reviews among top products provide actionable guidance for improving product strategy, marketing, and customer satisfaction
+ The Amazon Product Review Analysis in Excel uncovered key trends in product performance, pricing, and customer engagement. Insights such as the impact of discounts on ratings and concentration of reviews among top products provide actionable guidance for improving product strategy, marketing, and customer satisfaction.
 
 
 
