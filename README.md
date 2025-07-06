@@ -8,6 +8,8 @@ This Data Analysis project focuses on analyzing Amazon product and customer revi
  - Improve product quality based on real customer feedback.
  - Refine marketing strategies using trends in reviews and ratings.
  - Boost customer engagement and satisfaction through informed decisions.
+   
+This Project aims to equips Amazon sellers with a strategic overview of how their products perform in the market, making it easier to spot opportunities, track customer sentiment, and make informed improvements.
 
 ### Dataset Description 
 The dataset contains information scraped from Amazon product pages, including:
@@ -54,7 +56,10 @@ Using Calculated columns, the following  line of codes were used during the anal
  2. Discount of 50% or more =IF(Discount % >= 50, "Yes", "No")
  3. Total potential revenue by category =Actual Price * Rating Count
  4. Price bucket {=IF(Discounted Price < 200, "<$200", IF(Discounted Price <= 500, "$200–$500", ">$500")) }
- 5. Rating + number of reviews combined = Average Rating + (Rating Count / Scaling Factor)(Choose a factor like 1000 to balance weight
+ 5. Rating + number of reviews combined = Average Rating + (Rating Count / Scaling Factor)(Choose a factor like 1000 to balance weight)
+    
+### Dashboard
+https://github.com/Abee-Udoh/DSA-DATA-ANALYSIS-CAPSTONE-PROJECT-AMAZON/blob/main/Excel%20Dashboard.jpg
 
 ### Project insights
 Some key takeaways from the analysis:
