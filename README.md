@@ -23,4 +23,13 @@ The dataset contains information scraped from Amazon product pages, including:
    - Slicers and Filters for seamless interactivity and data exploration.
    - Data Visualizations (charts, tables, Pie chart, etc) to highlight trends in product ratings, discount behavior, pricing strategies, and review volume.
  
+### Process: Data Cleaning, Preparation and Visualizations
+- Remove duplicates from Product _Id 
+- Convert Text to Columns in Category column, select common delimited in the overall category details, set the delimiters contained in the data and click on Finish. Rename new category columns giving unique headers. 
+- Verify data for any missing values and anomalies, and sort them when necessary using Filter tool.
+- Consistent and clean data with respect to data type, data format and values used 
+- Create Pivot Tables to summarize and segment data efficiently.
+- Calculated Columns to derive key performance indicators (e.g., Total potential revenue).
+- Data Visualizations (Bar charts, tables, Pie chart, Scatter chart) to highlight trends in product ratings, discount behavior, pricing strategies, and review volume.
+- Slicers and Filters for seamless interactivity and data exploration.
 
