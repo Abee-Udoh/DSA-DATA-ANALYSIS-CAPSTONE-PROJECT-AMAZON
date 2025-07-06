@@ -44,7 +44,7 @@ Using Pivot Tables, Slicers, and Calculated Columns in Excel, the following ques
 11. How does the rating relate to the level of discount? 
 12. How many products have fewer than 1,000 reviews? 
 13. Which categories have products with the highest discounts? 
- 14. Identify the top 5 products in terms of rating and number of reviews combined.
+14. Identify the top 5 products in terms of rating and number of reviews combined.
 
 
 
