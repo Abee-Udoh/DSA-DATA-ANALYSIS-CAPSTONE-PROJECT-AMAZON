@@ -51,7 +51,7 @@ Using Pivot Tables, Slicers, and Calculated Columns in Excel, the following ques
 14. Identify the top 5 products in terms of rating and number of reviews combined.
 
 ### Data Analysis 
-Using Calculated columns, the following  line of codes were used during the analysis:
+Using Calculated columns, the following queries were used during the analysis:
  1. Average discount percentage by product category = (Actual Price - Discounted Price) / Actual Price * 100
  2. Discount of 50% or more =IF(Discount % >= 50, "Yes", "No")
  3. Total potential revenue by category =Actual Price * Rating Count
