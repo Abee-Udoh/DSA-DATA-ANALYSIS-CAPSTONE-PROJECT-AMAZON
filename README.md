@@ -20,14 +20,16 @@ The dataset contains information scraped from Amazon product pages, including:
  
 ### Process: Data Cleaning, Preparation and Visualizations
 - In the initial phase of the data cleaning and preparation, I performed the following actions:
- - Remove duplicates from Product _Id 
- - Convert Text to Columns in Category column, select common delimited in the overall category details, set the delimiters contained in the data and click on Finish. Rename new category columns giving unique headers. 
- - Verify data for any missing values and anomalies, and sort them when necessary using Filter tool.
- - Consistent and clean data with respect to data type, data format and values used 
- - Create Pivot Tables to summarize and segment data efficiently.
- - Calculated Columns to derive key performance indicators (e.g., Total potential revenue).
-- Data Visualizations (Bar charts, tables, Pie chart, Scatter chart) to highlight trends in product ratings, discount behavior, pricing strategies, and review volume.
-- Slicers and Filters for seamless interactivity and data exploration.
+  1. Apply the filter drop-down button to all header column. Go through each column to look for blanks and incorrect data. Replace the numeric blanks with 0.
+  2. Remove duplicates from Product _Id 
+  3. Change the formatting of the columns where necessary i.e currency where necessary.
+  4. Hide or delete unnecessary columns that you won't be needed to generate a result i.e img_link.
+  5. For Category column, use delimiters in the Data tab to extract only the main category needed.
+  6. Consistent and clean data with respect to data type, data format and values used
+  7. Create Pivot Tables to summarize and segment data efficiently.
+  8. Calculated Columns to derive key performance indicators (e.g., Total potential revenue).
+  9. Data Visualizations (Bar charts, tables, Pie chart, Scatter chart) to highlight trends in product ratings, discount behavior, pricing strategies, and review volume.
+ 10. Slicers and Filters for seamless interactivity and data exploration.
 
 ### Analysis Tasks & KPIs
 Using Pivot Tables, Slicers, and Calculated Columns in Excel, the following questions were explored:
@@ -45,6 +47,14 @@ Using Pivot Tables, Slicers, and Calculated Columns in Excel, the following ques
 12. How many products have fewer than 1,000 reviews? 
 13. Which categories have products with the highest discounts? 
 14. Identify the top 5 products in terms of rating and number of reviews combined.
+
+### Data Analysis 
+Using Calculated columns, the following  line of codes were used during the analys
+ 1. Average discount percentage by product category = (Actual Price - Discounted Price) / Actual Price * 100
+ 2. Discount of 50% or more =IF(Discount % >= 50, "Yes", "No")
+ 3. Total potential revenue by category =Actual Price * Rating Count
+ 4. Price bucket {=IF(Discounted Price < 200, "<$200", IF(Discounted Price <= 500, "$200–$500", ">$500")) }
+ 5. Rating + number of reviews combined = Average Rating + (Rating Count / Scaling Factor)(Choose a factor like 1000 to balance weight
 
 ### Project insights
 Some key takeaways from the analysis:
