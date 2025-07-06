@@ -29,7 +29,7 @@ The dataset contains information scraped from Amazon product pages, including:
   7. Create Pivot Tables to summarize and segment data efficiently.
   8. Calculated Columns to derive key performance indicators (e.g., Total potential revenue).
   9. Data Visualizations (Bar charts, tables, Pie chart, Scatter chart) to highlight trends in product ratings, discount behavior, pricing strategies, and review volume.
- 10. Slicers and Filters for seamless interactivity and data exploration.
+  10. Slicers and Filters for seamless interactivity and data exploration.
 
 ### Analysis Tasks & KPIs
 Using Pivot Tables, Slicers, and Calculated Columns in Excel, the following questions were explored:
