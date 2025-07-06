@@ -68,7 +68,7 @@ Some key takeaways from the analysis:
 - There's a slight inverse correlation between deep discounts and product ratings.
 - Most products are priced between ₹200–₹500.
 
-### Final Conclusion
+### Conclusion
  The Amazon Product Review Analysis in Excel uncovered key trends in product performance, pricing, and customer engagement. Insights such as the impact of discounts on ratings and concentration of reviews among top products provide actionable guidance for improving product strategy, marketing, and customer satisfaction.
 
 
